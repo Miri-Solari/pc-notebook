@@ -50,7 +50,7 @@ int main()
 
     cout << '\n' << "Задание 3" << '\n';
     int year;
-    float money, perc;
+    double money, perc;
     cout << "Введите начальный вклад: ";
     cin >> money;
     cout << "Введите число лет: ";
@@ -60,10 +60,31 @@ int main()
     for (int x = 0; x < year; x++) {
         money *= (100.0 + perc) / 100;
     }
-    cout << "Через "<< year <<" лет вы получите " << money << "денежных единиц";
+    cout << "Через "<< year <<" лет вы получите " << money << " денежных единиц" << "\n\n";
 
 
     cout << '\n' << "Задание 4" << '\n';
+    int first;
+    double percent, fin, sum;
+    cout << "Введите сумму кредита: ";
+    cin >> sum;
+    cout << "Введите первоначальный взнос: ";
+    cin >> first;
+    cout << "Введите срок кредитования в годах: ";
+    cin >> year;
+    cout << "Введите фиксированный процент: ";
+    cin >> percent;
+    fin = (sum * (1.0 + percent / 100 / 12)) / (1 - (1 + percent / 100 / 12) * (1 - year * 12));
+    sum = fin * 12 * year;
+    for (int x = 1; x <= year; x++) {
+        cout << "За " << x << " год вы заплатите: " << fixed << setprecision(4) << fin*12 << '\n';
+        if (sum - fin * 12*x > 0){
+            cout << "До закрытия кридите останется заплатить: " << fixed << setprecision(4) << sum - fin * 12 * x << '\n';
+        }
+        else {
+            cout << "Примите искренние поздравления, вы закрыли кредит!!!" << '\n';
+        }
 
+    }
 }
 
