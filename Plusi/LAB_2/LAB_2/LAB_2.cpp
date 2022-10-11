@@ -60,7 +60,7 @@ int main()
     for (int x = 0; x < year; x++) {
         money *= (100.0 + perc) / 100;
     }
-    cout << "Через "<< year <<" лет вы получите " << money << " денежных единиц" << "\n\n";
+    cout << "Через "<< year <<" лет вы получите " << money << " д. ед." << "\n\n";
 
 
     cout << '\n' << "Задание 4" << '\n';
@@ -87,6 +87,34 @@ int main()
 
     }
 
+    cout << '\n' << "Задание 5" << '\n';
+    int funt, shill, pens, funts, shills, penss, x = 2;
+    char dummychar, yn;
+    cout << "Желаете начать работу(y/n)? " << '\n';
+    cin >> yn;
+    cout << "Введите 1 сумму: £";
+    cin >> funts >> dummychar >> shills >> dummychar >> penss;
+    while (yn != 'n') {
+        cout << "Введите " << x << " сумму: £";
+        x++;
+        cin >> funt >> dummychar >> shill >> dummychar >> pens;
+        penss += pens;
+        if (penss > 11) {
+            shills++;
+            penss -= 12;
+        }
+        shills += shill;
+        if (shills > 19) {
+            funts++;
+            shills -= 20;
+        }
+        funts += funt;
+        cout << "Всего: £" << funts << '.' << shills << '.' << penss << '\n';
+        cout << "Продолжить (y/n)? ";
+        cin >> yn;
+        cout << '\n';
+    }
+    cout << "Работа программы закончена!!!\n\n";
 
 }
 
