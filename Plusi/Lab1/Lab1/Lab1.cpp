@@ -9,7 +9,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     float temp;
-    int first1, second1, first2, second2, funt, shill, pens;
+    int first1, second1, first2, second2, funt, shill, pens, del = 1;
     char dummychar;
 
     cout << "Задание 1" << '\n';
@@ -25,7 +25,18 @@ int main()
     cin >> first1 >> dummychar >> second1;
     cout << "Введите вторую дробь: ";
     cin >> first2 >> dummychar >> second2;
-    cout << "Сумма = " << first1*second2 + first2*second1 << '/' << second1*second2 << '\n' << '\n';
+    for (int x = second1 * second2; x > 1; x--) {
+        if (second1 * second2 % x == 0 && (first1 * second2 + first2 * second1) % x == 0) {
+            del = x;
+            break;
+        }
+    }
+    if ((first1 * second2 + first2 * second1) % (second1 * second2) == 0) {
+        cout << "Сумма = " << (first1 * second2 + first2 * second1) / (second1 * second2) << '\n' << '\n';
+    }
+    else {
+        cout << "Сумма = " << (first1 * second2 + first2 * second1) / del << '/' << (second1 * second2) / del << '\n' << '\n';
+    }
     
     cout << "Задание 4" << '\n';
     cout << "Введите количество фунтов: ";
