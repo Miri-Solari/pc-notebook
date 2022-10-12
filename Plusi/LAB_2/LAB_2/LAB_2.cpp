@@ -74,6 +74,8 @@ int main()
     cin >> year;
     cout << "Введите фиксированный процент: ";
     cin >> percent;
+    sum -= first;
+    cout << '\n';
     fin = (sum * (1.0 + percent / 100 / 12)) / (1 - (1 + percent / 100 / 12) * (1 - year * 12));
     sum = fin * 12 * year;
     for (int x = 1; x <= year; x++) {
@@ -90,7 +92,7 @@ int main()
     cout << '\n' << "Задание 5" << '\n';
     int funt, shill, pens, funts, shills, penss, x = 2;
     char dummychar, yn;
-    cout << "Желаете начать работу(y/n)? " << '\n';
+    cout << "Желаете начать работу(y/n)? ";
     cin >> yn;
     cout << "Введите 1 сумму: £";
     cin >> funts >> dummychar >> shills >> dummychar >> penss;
