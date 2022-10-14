@@ -76,7 +76,7 @@ int main()
     cin >> percent;
     sum -= first;
     cout << '\n';
-    fin = (sum * (1.0 + percent / 100 / 12)) / (1 - (1 + percent / 100 / 12) * (1 - year * 12));
+    fin = sum * (percent / 100 / 12 * pow(1.0 + percent / 100 / 12, year * 12) / (pow(1.0 + percent / 100 / 12, year * 12) - 1));
     sum = fin * 12 * year;
     for (int x = 1; x <= year; x++) {
         cout << "За " << x << " год вы заплатите: " << fixed << setprecision(4) << fin*12 << '\n';
@@ -88,6 +88,7 @@ int main()
         }
 
     }
+    cout << "Общая сумма выплат: " << sum << '\n';
 
     cout << '\n' << "Задание 5" << '\n';
     int funt, shill, pens, funts, shills, penss, x = 2;
