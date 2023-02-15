@@ -44,6 +44,11 @@ namespace lab_1
                 {
                     a = x0;
                 }
+                else
+                {
+                    Console.WriteLine("Ошибка, некорректные значения");
+                    Environment.Exit(0);
+                }
                 x0 = (a + b) / 2;
                 S += 1;
             }
@@ -57,7 +62,7 @@ namespace lab_1
             double cur = Fi(x0);
             double next = Fi(cur);
             double t;
-            S = 1;
+            S = 2;
             while (Math.Abs(next - cur) > E)
             {
                 S += 1;

@@ -12,3 +12,17 @@ E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.csp
 E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.dll
 E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.pdb
 E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.genruntimeconfig.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.exe
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.deps.json
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.runtimeconfig.json
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.runtimeconfig.dev.json
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.dll
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.pdb
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.csproj.AssemblyReference.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.AssemblyInfoInputs.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.AssemblyInfo.cs
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.csproj.CoreCompileInputs.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.dll
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.pdb
+C:\Users\Hornir\Documents\GitHub\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.genruntimeconfig.cache
