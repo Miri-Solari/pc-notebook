@@ -1,0 +1,14 @@
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.exe
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.deps.json
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.runtimeconfig.json
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.runtimeconfig.dev.json
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.dll
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\bin\Debug\netcoreapp3.1\lab_1.pdb
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.csproj.AssemblyReference.cache
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.GeneratedMSBuildEditorConfig.editorconfig
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.AssemblyInfoInputs.cache
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.AssemblyInfo.cs
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.csproj.CoreCompileInputs.cache
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.dll
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.pdb
+E:\jpr\django\pc-notebook\num_meth\lab_1\lab_1\obj\Debug\netcoreapp3.1\lab_1.genruntimeconfig.cache
