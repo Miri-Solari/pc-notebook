@@ -94,7 +94,7 @@ namespace LAB_2
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
+            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && !Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
             {
                 this.textBox1.AppendText("");
             }
@@ -111,7 +111,7 @@ namespace LAB_2
 
         private void button7_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
+            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && !Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
             {
                 this.textBox1.AppendText("");
             }
@@ -128,7 +128,7 @@ namespace LAB_2
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
+            if (textBox1.Text.Length == 0 || textBox1.Text.Length == 1 && !Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
             {
                 this.textBox1.AppendText("");
             }
@@ -154,7 +154,15 @@ namespace LAB_2
                 textBox1.Text = textBox1.Text.Substring(0, textBox1.Text.Length - 1);
                 this.textBox1.AppendText("-");
             }
-            else if (Char.IsDigit(textBox1.Text[textBox1.Text.Length - 2]) && textBox1.Text.Length >= 2 || textBox1.Text.Length == 2 && Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
+            else if (textBox1.Text.Length == 1)
+            {
+                this.textBox1.AppendText("-");
+            }
+            else if (textBox1.Text.Length == 2 && Char.IsDigit(textBox1.Text[textBox1.Text.Length - 1]))
+            {
+                this.textBox1.AppendText("-");
+            }
+            else if (Char.IsDigit(textBox1.Text[textBox1.Text.Length - 2]) && textBox1.Text.Length >= 2)
             {
                 this.textBox1.AppendText("-");
             }
