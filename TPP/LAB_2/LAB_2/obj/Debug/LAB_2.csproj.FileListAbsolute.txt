@@ -1,0 +1,10 @@
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\bin\Debug\LAB_2.exe.config
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\bin\Debug\LAB_2.exe
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\bin\Debug\LAB_2.pdb
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.csproj.AssemblyReference.cache
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.Form1.resources
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.Properties.Resources.resources
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.csproj.GenerateResource.cache
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.csproj.CoreCompileInputs.cache
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.exe
+E:\jpr\django\pc-notebook\TPP\LAB_2\LAB_2\obj\Debug\LAB_2.pdb
