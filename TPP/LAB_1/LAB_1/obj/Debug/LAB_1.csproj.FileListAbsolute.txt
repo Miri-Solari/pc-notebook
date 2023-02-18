@@ -8,3 +8,13 @@ E:\jpr\django\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.csproj.GenerateResourc
 E:\jpr\django\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.csproj.CoreCompileInputs.cache
 E:\jpr\django\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.exe
 E:\jpr\django\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.pdb
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\bin\Debug\LAB_1.exe.config
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\bin\Debug\LAB_1.exe
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\bin\Debug\LAB_1.pdb
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.csproj.AssemblyReference.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.Form1.resources
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.Properties.Resources.resources
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.csproj.GenerateResource.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.csproj.CoreCompileInputs.cache
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.exe
+C:\Users\Hornir\Documents\GitHub\pc-notebook\TPP\LAB_1\LAB_1\obj\Debug\LAB_1.pdb
