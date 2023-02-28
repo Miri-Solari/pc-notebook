@@ -1,0 +1,16 @@
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.csproj.AssemblyReference.cache
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.GeneratedMSBuildEditorConfig.editorconfig
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.AssemblyInfoInputs.cache
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.AssemblyInfo.cs
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.csproj.CoreCompileInputs.cache
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.exe
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.deps.json
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.runtimeconfig.json
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.runtimeconfig.dev.json
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.dll
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\ref\LAB_3.dll
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\bin\Debug\net5.0\LAB_3.pdb
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.dll
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\ref\LAB_3.dll
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.pdb
+E:\jpr\django\pc-notebook\num_meth\LAB_3\LAB_3\obj\Debug\net5.0\LAB_3.genruntimeconfig.cache
