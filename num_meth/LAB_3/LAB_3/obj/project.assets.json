@@ -8,25 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\super pc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Hornir\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\jpr\\django\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\LAB_3.csproj",
+      "projectUniqueName": "C:\\Users\\Hornir\\Documents\\GitHub\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\LAB_3.csproj",
       "projectName": "LAB_3",
-      "projectPath": "E:\\jpr\\django\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\LAB_3.csproj",
-      "packagesPath": "C:\\Users\\super pc\\.nuget\\packages\\",
-      "outputPath": "E:\\jpr\\django\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\obj\\",
+      "projectPath": "C:\\Users\\Hornir\\Documents\\GitHub\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\LAB_3.csproj",
+      "packagesPath": "C:\\Users\\Hornir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hornir\\Documents\\GitHub\\pc-notebook\\num_meth\\LAB_3\\LAB_3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\super pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hornir\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -67,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
