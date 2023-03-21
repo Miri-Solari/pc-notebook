@@ -48,8 +48,6 @@ namespace LAB_2
             double curx = x0;
             double nextx = curx - Fx(curx) / Fxi(curx);
             S = 1;
-           // Console.WriteLine("curx = " + Convert.ToString(curx));
-            //Console.WriteLine("nextx = " + Convert.ToString(nextx));
             while (Math.Abs(nextx - curx) > E)
             {
                 curx = nextx;

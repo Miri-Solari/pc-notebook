@@ -23,10 +23,10 @@ namespace LAB_4_6_
 
             Console.WriteLine("Введите количество дроблений: ");
             n = Convert.ToDouble(Console.ReadLine());
-            h = (a + b) / n;
-            for (double x = a; x <= b; x += h)
+            h = Math.Abs(a - b) / n;
+            for (int x = 0; x < n; x ++)
             {
-                answ += SRect(h, F(x));
+                answ += SRect(h, F(x*h + a));
             }
             Console.WriteLine("Результат, полученный методом прямоугольников: " + Convert.ToString(answ));
         }
