@@ -15,7 +15,7 @@ namespace LAB_5_7_
 
         static void Main(string[] args)
         {
-            double a = 0;
+            double a = 50;
             double b = 100;
             double n;
             double h, answ = 0;
