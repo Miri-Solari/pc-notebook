@@ -16,6 +16,7 @@ namespace LAB_6_8_
             double b = 100;
             double n;
             double h, answ = 0;
+            double tt = 725.45692080239d;
             Console.WriteLine("Введите количество дроблений: ");
             n = Convert.ToDouble(Console.ReadLine());
             h = (b - a) / (2*n);
@@ -25,7 +26,9 @@ namespace LAB_6_8_
                 //Console.WriteLine(F(x * h + a) * Math.Pow(2, 1 + x % 2));
                 answ += F(x*h + a) * Math.Pow(2, 1 + x % 2);
             }
+
             Console.WriteLine("Результат, полученный методом Симпсона: " + Convert.ToString(h/3*answ));
+            Console.WriteLine(Convert.ToString(tt - (h / 3 * answ)));
         }
     }
 }
