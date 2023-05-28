@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2dW1TS5daos/B0wwq+z/4XEU0GB8oOBe8/k8o5MCG3o+t/1839Q1XLTH8abWj2XadEMYkcu/occIiRO8aZRIvA==",
+  "dgSpecHash": "//yAnXQccKrPKC69mkaQ/EiXjF9GkobAiGSGpfbbt1Lj9mG5KsmXdNCrbyDxYhN6Sy8MZsXHDUq10hn8rgOQ1g==",
   "success": true,
   "projectFilePath": "E:\\jpr\\django\\pc-notebook\\TPP\\LAB_7\\LAB_7\\LAB_7.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\super pc\\.nuget\\packages\\system.speech\\7.0.0\\system.speech.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

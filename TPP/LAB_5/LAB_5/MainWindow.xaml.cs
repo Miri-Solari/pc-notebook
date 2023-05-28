@@ -63,6 +63,27 @@ namespace LAB_5
             }
         }
 
+
+        private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (colorComboBox.SelectedItem.ToString() != null)
+            {
+                string colorName = colorComboBox.SelectedItem.ToString()[38..];
+                Color color = (Color)ColorConverter.ConvertFromString(colorName);
+                SolidColorBrush brush = new SolidColorBrush(color);
+                textBox.Foreground = brush;
+            }
+        }
+
+        private void FontComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (fontComboBox.SelectedItem != null)
+            {
+                string fontFamily = fontComboBox.SelectedItem.ToString()[38..];
+                textBox.FontFamily = new FontFamily(fontFamily);
+            }
+        }
+
         private void ExitMenuItem_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();

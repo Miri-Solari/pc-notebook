@@ -19,6 +19,26 @@
         </Menu>
 
         <TextBox x:Name="textBox" Grid.Row="1" Margin="10,10,10,1" TextWrapping="Wrap" AcceptsReturn="True" Grid.RowSpan="1"/>
-        <Button x:Name="button18" Grid.Row="2" Content="Кнопка&#xD;&#xA;Веселья" HorizontalAlignment="Left" Margin="10,10,0,14" Width="100" Click="Button18_Click"/>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="10">
+            <TextBlock Text="Цвет текста:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <ComboBox x:Name="colorComboBox" Height="25" Width="120" SelectionChanged="ColorComboBox_SelectionChanged">
+                <ComboBoxItem Content="White"/>
+                <ComboBoxItem Content="Gray"/>
+                <ComboBoxItem Content="Blue"/>
+                <ComboBoxItem Content="Green"/>
+                <ComboBoxItem Content="Yellow"/>
+                <ComboBoxItem Content="Red"/>
+            </ComboBox>
+
+            <TextBlock Text="Шрифт:" VerticalAlignment="Center" Margin="20,0,10,0"/>
+            <ComboBox x:Name="fontComboBox" Height="25" Width="120" SelectionChanged="FontComboBox_SelectionChanged">
+                <ComboBoxItem Content="Arial"/>
+                <ComboBoxItem Content="Times New Roman"/>
+                <ComboBoxItem Content="Courier New"/>
+                <ComboBoxItem Content="Verdana"/>
+                <ComboBoxItem Content="Tahoma"/>
+            </ComboBox>
+            <Button x:Name="button18" Content="Кнопка&#xA;Веселья"  Height="50" Width="102" Margin="50,0,10,0" Click="Button18_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

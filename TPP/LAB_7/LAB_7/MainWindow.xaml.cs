@@ -1,70 +1,120 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.IO;
 using System.Speech.Synthesis;
+using System.Speech.AudioFormat;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
 namespace LAB_7
 {
     public partial class MainWindow : Window
     {
         private SpeechSynthesizer synthesizer;
+        private PromptVolume volume;
+        private PromptRate rate;
 
         public MainWindow()
         {
             InitializeComponent();
+            volume = PromptVolume.Default;
+            rate = PromptRate.Medium;
             synthesizer = new SpeechSynthesizer();
-        }
+            
+    }
 
         private void LoadFileButton_Click(object sender, RoutedEventArgs e)
         {
-            Microsoft.Win32.OpenFileDialog openFileDialog = new Microsoft.Win32.OpenFileDialog();
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "Text Files|*.txt";
             if (openFileDialog.ShowDialog() == true)
             {
                 string filePath = openFileDialog.FileName;
-                string fileExtension = Path.GetExtension(filePath).ToLower();
-
-                if (fileExtension == ".txt")
-                {
-                    string text = File.ReadAllText(filePath);
-                    inputTextBox.Text = text;
-                }
-                else if (fileExtension == ".wav")
-                {
-                    synthesizer.SetOutputToDefaultAudioDevice();
-                    synthesizer.SpeakAsyncCancelAll();
-                    synthesizer.SpeakAsync(filePath);
-                }
-                else
-                {
-                    MessageBox.Show("Неподдерживаемый формат файла.");
-                }
+                string fileContents = File.ReadAllText(filePath);
+                TextInput.Text = fileContents;
             }
         }
 
-        private void SynthesizeButton_Click(object sender, RoutedEventArgs e)
+        private void SaveSpeechButton_Click(object sender, RoutedEventArgs e)
         {
-            string text = inputTextBox.Text;
-            if (!string.IsNullOrEmpty(text))
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "WAV Files|*.wav";
+            if (saveFileDialog.ShowDialog() == true)
             {
+                string filePath = saveFileDialog.FileName;
+                string text = TextInput.Text;
+                PromptBuilder promptBuilder = new PromptBuilder();
+
+
+
+                promptBuilder.StartStyle(new PromptStyle()
+                {
+                    Volume = volume,
+                    Rate = rate
+                });
+                promptBuilder.AppendText(text);
+                promptBuilder.EndStyle();
+                synthesizer.SetOutputToWaveFile(filePath);
+                synthesizer.Speak(promptBuilder);
                 synthesizer.SetOutputToDefaultAudioDevice();
-                synthesizer.SpeakAsyncCancelAll();
-                synthesizer.SpeakAsync(text);
+                MessageBox.Show("Речь сохранена успешно!");
             }
         }
 
-        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        private void PlaySpeechButton_Click(object sender, RoutedEventArgs e)
         {
-            string text = inputTextBox.Text;
-            if (!string.IsNullOrEmpty(text))
+            string text = TextInput.Text;
+            PromptBuilder promptBuilder = new PromptBuilder();
+            
+
+            
+            promptBuilder.StartStyle(new PromptStyle()
             {
-                Microsoft.Win32.SaveFileDialog saveFileDialog = new Microsoft.Win32.SaveFileDialog();
-                if (saveFileDialog.ShowDialog() == true)
+                Volume = volume,
+                Rate = rate
+            });
+            promptBuilder.AppendText(text);
+            promptBuilder.EndStyle();
+
+            synthesizer.SpeakAsync(promptBuilder);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Random rnd = new Random();
+            foreach (StackPanel item in grid.Children.OfType<StackPanel>())
+            {
+                foreach (Button item1 in item.Children.OfType<Button>())
                 {
-                    string filePath = saveFileDialog.FileName;
-                    synthesizer.SetOutputToWaveFile(filePath);
-                    synthesizer.Speak(text);
-                    synthesizer.SetOutputToDefaultAudioDevice();
+                    item1.Background = new SolidColorBrush(Color.FromArgb(Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255))));
                 }
+                item.Background = new SolidColorBrush(Color.FromArgb(Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255)), Convert.ToByte(rnd.Next(1, 255))));
             }
+        }
+
+        private void setting_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string name = Microsoft.VisualBasic.Interaction.InputBox("Введите желаемый уровень громкости(0-100):", "Ввод громкости", "");
+            int volumeValue = Convert.ToInt32(name);
+            volume = (PromptVolume)volumeValue;
+
+            string rater = Microsoft.VisualBasic.Interaction.InputBox("Введите желаемую скорость воспроизведения(1-5, 1-очень быстро, 5-очень медленно):", "Ввод громкости", "");
+            int rateValue = Convert.ToInt32(rater);
+            rate = (PromptRate)rateValue;
+            MessageBox.Show(volume.ToString());
+            MessageBox.Show(rate.ToString());
         }
     }
+
 }

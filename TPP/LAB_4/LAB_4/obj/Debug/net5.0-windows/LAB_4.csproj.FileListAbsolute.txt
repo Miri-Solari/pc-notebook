@@ -3,7 +3,6 @@ E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\LAB_4.deps.js
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\LAB_4.runtimeconfig.json
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\LAB_4.runtimeconfig.dev.json
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\LAB_4.dll
-E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\ref\LAB_4.dll
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\bin\Debug\net5.0-windows\LAB_4.pdb
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\LAB_4.csproj.AssemblyReference.cache
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\MainWindow.baml
@@ -19,3 +18,4 @@ E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\LAB_4.dll
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\ref\LAB_4.dll
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\LAB_4.pdb
 E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\LAB_4.genruntimeconfig.cache
+E:\jpr\django\pc-notebook\TPP\LAB_4\LAB_4\obj\Debug\net5.0-windows\refint\LAB_4.dll
