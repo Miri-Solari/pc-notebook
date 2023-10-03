@@ -1,0 +1,15 @@
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\bin\Debug\net7.0\LAB_1.exe
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\bin\Debug\net7.0\LAB_1.deps.json
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\bin\Debug\net7.0\LAB_1.runtimeconfig.json
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\bin\Debug\net7.0\LAB_1.dll
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\bin\Debug\net7.0\LAB_1.pdb
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.csproj.AssemblyReference.cache
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.AssemblyInfoInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.AssemblyInfo.cs
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.csproj.CoreCompileInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.dll
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\refint\LAB_1.dll
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.pdb
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\LAB_1.genruntimeconfig.cache
+F:\Репозитории\pc-notebook\ООП\LAB_1\LAB_1\obj\Debug\net7.0\ref\LAB_1.dll

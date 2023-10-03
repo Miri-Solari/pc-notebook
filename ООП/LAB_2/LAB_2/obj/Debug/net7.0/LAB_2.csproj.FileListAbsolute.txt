@@ -1,0 +1,15 @@
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\bin\Debug\net7.0\LAB_2.exe
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\bin\Debug\net7.0\LAB_2.deps.json
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\bin\Debug\net7.0\LAB_2.runtimeconfig.json
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\bin\Debug\net7.0\LAB_2.dll
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\bin\Debug\net7.0\LAB_2.pdb
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.csproj.AssemblyReference.cache
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.GeneratedMSBuildEditorConfig.editorconfig
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.AssemblyInfoInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.AssemblyInfo.cs
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.csproj.CoreCompileInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.dll
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\refint\LAB_2.dll
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.pdb
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\LAB_2.genruntimeconfig.cache
+F:\Репозитории\pc-notebook\ООП\LAB_2\LAB_2\obj\Debug\net7.0\ref\LAB_2.dll
