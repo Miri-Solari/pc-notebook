@@ -8,19 +8,22 @@ namespace LAB_4
 {
     internal class Stud
     {
-        internal string Name { get; set; }
+        internal string? Name { get; set; }
+
+        private string _secondName = "";
+        private int _age = 0;
         internal string SecondName
         {
-            get { return SecondName; }
-            set { SecondName = value; }
+            get { return _secondName; }
+            set { _secondName = value; }
         }
         internal int Age
         {
-            get { return Age; }
+            get { return _age; }
             set
             {
                 if (value < 0) { value = 0; }
-                Age = value;
+                _age = value;
             }
         }
 
