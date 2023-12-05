@@ -9,12 +9,14 @@ namespace LAB_3
     internal class University
     {
         private List<Student> _Students = new();
+        private List<long> _idCount = new();
 
         public string AddStud(Student Stud)
         {
             if (Stud != null)
             {
                 _Students.Add(Stud);
+                _idCount.Add(Stud.GetIdStud());
                 return "Student added";
             }
             else { return "Try better, uncorrect data"; }
@@ -26,6 +28,24 @@ namespace LAB_3
             return Search(Name, SecondName, Id);
         }
 
+        public Human? FindHuman(int id)
+        {
+            if (_Students.Count > 0)
+            {
+                if (id != 0)
+                {
+                    foreach (Student Human in _Students)
+                    {
+                        if (Human.GetId() == id)
+                        {
+                            return Human;
+                        }
+                    }
+                }
+            }
+            return null;
+        }
+
         public Student? FindStud()
         {
             return Search();
@@ -33,39 +53,39 @@ namespace LAB_3
 
         public Student? FindStud(long Id)
         {
-            return Search(Id: Id);
+            return Search(id: Id);
         }
 
-        private Student? Search(string Name = "", string SecondName = "", long Id = 0)
+        private Student? Search(string name = "", string secondName = "", long id = 0)
         {
             // Предположим что все имена и фамилии уникальны
             if (_Students.Count > 0)
             {
-                if (Id != 0)
+                if (id != 0)
                 {
                     foreach (Student student in _Students)
                     {
-                        if (student.GetId() == Id)
+                        if (student.GetIdStud() == id)
                         {
                             return student;
                         }
                     }
                 }
-                if (Name != "")
+                if (name != "")
                 {
                     foreach (Student student in _Students)
                     {
-                        if (student.GetName() == Name)
+                        if (student.GetName() == name)
                         {
                             return student;
                         }
                     }
                 }
-                if (SecondName != "")
+                if (secondName != "")
                 {
                     foreach (Student student in _Students)
                     {
-                        if (student.GetSecondName() == SecondName)
+                        if (student.GetSecondName() == secondName)
                         {
                             return student;
                         }

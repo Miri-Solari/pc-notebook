@@ -7,23 +7,25 @@ using System.Threading.Tasks;
 
 namespace LAB_3
 {
-    internal class Student
+    internal class Student : Human
     {
-        private long _id;
-        private string _Name = string.Empty;
-        private string _SecondName = string.Empty;
+        private long _idStud;
+        private string _nameStud = string.Empty;
+        private string _secondNameStud = string.Empty;
         private int _Age;
         private float _AvgPoint;
 
-        public Student(string Name, string SecondName, int Age, float AvgPoint)
+        public Student(string name, string secondName, int age, float avgPoint, DateTime birdthDate, int hieght, bool marry)
+            :base (name, secondName, birdthDate, hieght, marry)
         {
-            if (CheckCorr.Check(Name, SecondName, Age, AvgPoint))
-            { 
-                _id = Convert.ToInt32(DateTime.Now.Ticks);
-                _Name = Name;
-                _SecondName = SecondName;
-                _Age = Age;
-                _AvgPoint = AvgPoint;
+
+            if (CheckCorr.Check(name, secondName, age, avgPoint))
+            {
+                _idStud = Convert.ToInt32(DateTime.Now.Ticks);
+                _nameStud = name;
+                _secondNameStud = secondName;
+                _Age = age;
+                _AvgPoint = avgPoint;
                 Console.WriteLine("Success");
             }
             else
@@ -33,21 +35,21 @@ namespace LAB_3
             }
         }
 
-        public string GetName() { return _Name;}
+        public string GetName() { return _nameStud;}
 
         public int GetAge() { return _Age; }
 
-        public string GetSecondName() { return _SecondName;}
+        public string GetSecondName() { return _secondNameStud;}
 
         public float GetAvgPoint() { return _AvgPoint;}
 
-        public long GetId() { return _id;}
+        public long GetIdStud() { return _idStud;}
 
         public string TryToChangeName(string Name)
         {
             if (CheckCorr.Check(Name))
             {
-                _Name = Name;
+                _nameStud = Name;
                 return "Name changed";
             }
             else
@@ -60,7 +62,7 @@ namespace LAB_3
         {
             if (CheckCorr.Check(SecondName))
             {
-                _SecondName = SecondName;
+                _secondNameStud = SecondName;
                 return "Second name changed";
             }
             else
