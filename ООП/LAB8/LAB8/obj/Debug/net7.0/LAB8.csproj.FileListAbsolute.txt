@@ -1,0 +1,15 @@
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\bin\Debug\net7.0\LAB8.exe
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\bin\Debug\net7.0\LAB8.deps.json
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\bin\Debug\net7.0\LAB8.runtimeconfig.json
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\bin\Debug\net7.0\LAB8.dll
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\bin\Debug\net7.0\LAB8.pdb
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.csproj.AssemblyReference.cache
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.GeneratedMSBuildEditorConfig.editorconfig
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.AssemblyInfoInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.AssemblyInfo.cs
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.csproj.CoreCompileInputs.cache
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.dll
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\refint\LAB8.dll
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.pdb
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\LAB8.genruntimeconfig.cache
+F:\Репозитории\pc-notebook\ООП\LAB8\LAB8\obj\Debug\net7.0\ref\LAB8.dll
