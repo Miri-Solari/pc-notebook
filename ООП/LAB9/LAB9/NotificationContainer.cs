@@ -24,10 +24,5 @@ namespace LAB9
         {
             return _notifications.Count > 0;
         }
-
-        public void TsarBombSort()
-        {
-            _notifications.Clear();
-        }
     }
 }
