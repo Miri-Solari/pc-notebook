@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "/rA70fKCJlIghZ1mUCJ34nHjIg70Lat9qocid67UhmA=",
+  "Source": "LAB3(11)",
+  "BasePath": "_content/LAB3(11)",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LAB3(11)\\wwwroot",
+      "Source": "LAB3(11)",
+      "ContentRoot": "F:\\Репозитории\\pc-notebook\\BackEnd\\LAB3(11)\\LAB3(11)\\wwwroot\\",
+      "BasePath": "_content/LAB3(11)",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\Репозитории\\pc-notebook\\BackEnd\\LAB3(11)\\LAB3(11)\\wwwroot\\index.html",
+      "SourceId": "LAB3(11)",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\Репозитории\\pc-notebook\\BackEnd\\LAB3(11)\\LAB3(11)\\wwwroot\\",
+      "BasePath": "_content/LAB3(11)",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

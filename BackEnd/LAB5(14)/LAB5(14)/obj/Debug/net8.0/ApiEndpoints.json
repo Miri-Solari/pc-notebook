@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "LAB5_14_.Responses.ResponsesController",
+    "Method": "GetFile",
+    "RelativePath": "Responses/file",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB5_14_.Responses.ResponsesController",
+    "Method": "GetHtmlPage",
+    "RelativePath": "Responses/html",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB5_14_.Responses.ResponsesController",
+    "Method": "GetImage",
+    "RelativePath": "Responses/image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LAB5_14_.Responses.ResponsesController",
+    "Method": "GetJsonData",
+    "RelativePath": "Responses/json",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

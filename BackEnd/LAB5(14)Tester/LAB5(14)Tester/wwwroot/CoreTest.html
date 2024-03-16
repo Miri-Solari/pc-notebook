@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORS Test</title>
+</head>
+<body>
+    <h2>CORS Test Page</h2>
+    <button id="testHtml">Test HTML Response</button>
+    <button id="testJson">Test JSON Response</button>
+    <button id="testFile">Test File Response</button>
+    <button id="testImage">Test Image Response</button>
+    <script>
+         // Функция для выполнения запроса по указанному URL и вывода результата в консоль
+        function fetchAndLog(url) {
+            fetch(url)
+                .then(response => {
+                    if (response.ok) {
+                        // Ответ успешен -> обработка в зависимости от типа
+                        if (url.endsWith('json')) {
+                            return response.json(); // JSON ответ
+                        }
+                        else if (url.endsWith('file') || url.endsWith('image')) {
+                            return response.blob(); // Файловый ответ
+                        }
+                        else {
+                            return response.text(); // текстовый ответ
+                        }
+                    }
+                    throw new Error('Network error'); // случай ошибки с соединением если не удается получить ответ
+                })
+                .then(data => {
+                    console.log(data); // вывод в консоль
+                    alert(url.split('/').pop() + ' Response delivered, checkconsole'); // уведемление об успешном запросе
+                })
+                .catch(error => {
+                    console.error('CORS error:', error); // ошибка возникающая при запрете доступа
+                    alert('CORS error, check console'); // ошибка в консоль и на экран
+                });
+        }
+         // Обработчики событий для кнопок вызывающие метод выполнения запроса по указанному адресу
+        document.getElementById('testHtml').addEventListener('click', function () {
+    fetchAndLog('http://localhost:5288/Responses/html');
+        });
+        document.getElementById('testJson').addEventListener('click', function () {
+    fetchAndLog('http://localhost:5288/Responses/json');
+        });
+        document.getElementById('testFile').addEventListener('click', function () {
+    fetchAndLog('http://localhost:5288/Responses/file');
+        });
+        document.getElementById('testImage').addEventListener('click', function () {
+    fetchAndLog('http://localhost:5288/Responses/image');
+        });
+    </script>
+</body>
+</html>
